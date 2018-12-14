@@ -26,7 +26,18 @@ img {
   max-width: 100%;
 }
 
+img:nth-of-type(2) {
+  display: none;
+}
+
+img:nth-of-type(4) {
+  display: none;
+}
+
 body {
   padding: 0;
   margin: .5rem;
+  text-align: center;
 }
+
+@media only screen and (min-width: 38em) {
